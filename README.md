@@ -1,1 +1,1 @@
-# -6.-.-.
+# DZ 6. Selectors. Specificity.
