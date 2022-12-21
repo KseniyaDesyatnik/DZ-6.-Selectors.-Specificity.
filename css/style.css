@@ -1,0 +1,63 @@
+/* <!-- Универсальный селектор --> */
+*{
+    font-size: 30px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.customers {
+    width: 100%;
+}
+
+.customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.customers td:hover {background-color: #ddd;}
+
+.customers th {
+    border: 1px solid #ddd;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* <!-- Селектор по классу --> */
+.place{
+  color: brown;
+}
+.local{
+  color: rgb(42, 165, 83);
+}
+/*<!-- Селектор по id -->*/
+#first{
+    color: fuchsia;
+}
+#second{
+    color: aqua;
+}
+/*<!-- Селектор потомка -->*/
+.text{
+    color: mediumspringgreen;
+}
+.style .text{
+    color: gold;
+}
+/* <!-- Селектор по тегу --> */
+h5{
+    color: blue;
+}
+/* <!-- Селектор по атрибуту --> */
+blockquote[cite]{
+    color: springgreen;
+}
+/* <!--Селектор непосредственно вложенные --> */
+article > h3 {
+    color: yellowgreen;
+    background-color: gainsboro;
+}
